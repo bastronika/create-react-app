@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding-left: 4em;
+}
+.sidenav-style{
+  position: fixed !important;
+  background: #029afffd !important;
+}
+.pesangon-text{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+.ne555-text{
+  align-items: left;
+  text-align:justify;
+}
+.maintainance-text{
+  font-size:large;
+  font-weight:bold;
+  text-align:center;
+}
+.voltagedivider-text{
+  align-items: left;
+  text-align:justify;
+}
+.ne555-gambar {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .ne555-gambar {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+.App-header {
+  background-color: #ffffff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
